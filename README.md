@@ -223,7 +223,7 @@ Con esta configuración y la implementación de la FSM, el sistema Jukebox es ca
 
 2. La segunda, ha sido incluir en la función **_execute_command** perteneciente a common\src\fsm_jukebox.c la opción "lista", la cual imprime por pantalla el número de melodias guardadas.
 
-![*Terminal al introducir el comando "lista":*](docs\assets\imgs\lista.PNG)
+[![Lista](docs\assets\imgs\lista.PNG)
 
 
 3. La tercera consiste en modificar el debounce-time de nuestro jukebox y en vez pedirselo a la common\src\fsm_button.c pedirselo al port\stm32f4\src\port_button.
